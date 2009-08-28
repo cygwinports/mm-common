@@ -1,0 +1,9 @@
+inherit gtkmm
+
+DESCRIPTION="GNOME C++ bindings build infrastructure"
+
+src_compile() {
+	cd ${B}
+	cygconf
+	cygmake
+}

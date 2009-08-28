@@ -1,0 +1,41 @@
+mm-common
+------------------------------------------
+The mm-common module provides the build infrastructure and utilities
+shared among the GNOME C++ binding libraries.
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygport-0.9.9-1
+  curl-7.19.6-1
+  gawk-3.1.6-2
+  make-3.81-2
+
+Canonical website:
+  http://www.gtkmm.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/mm-common/
+
+-------------------------------------------
+
+Build instructions:
+  unpack mm-common-0.7.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./mm-common-0.7.1-X.cygport all
+
+This will create:
+  /usr/src/mm-common-0.7.1-X-src.tar.bz2
+  /usr/src/mm-common-0.7.1-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 0.7.1-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
