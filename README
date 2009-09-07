@@ -19,19 +19,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack mm-common-0.7.1-X-src.tar.bz2
+  unpack mm-common-0.7.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./mm-common-0.7.1-X.cygport all
+  cygport ./mm-common-0.7.2-X.cygport all
 
 This will create:
-  /usr/src/mm-common-0.7.1-X-src.tar.bz2
-  /usr/src/mm-common-0.7.1-X.tar.bz2
+  /usr/src/mm-common-0.7.2-X-src.tar.bz2
+  /usr/src/mm-common-0.7.2-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
+
+----- version 0.7.2-1 -----
+Version bump.
 
 ----- version 0.7.1-1 -----
 Initial release for Cygwin 1.7.
