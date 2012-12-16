@@ -1,0 +1,15 @@
+inherit gnome.org
+
+NAME="mm-common"
+VERSION=0.9.6
+RELEASE=1
+CATEGORY="Devel GNOME"
+SUMMARY="GNOME C++ bindings build infrastructure"
+DESCRIPTION="The mm-common module provides the build infrastructure and
+utilities shared among the GNOME C++ binding libraries."
+
+src_compile() {
+	cd ${B}
+	cygconf
+	cygmake
+}
