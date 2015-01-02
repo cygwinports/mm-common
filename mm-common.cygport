@@ -1,12 +1,14 @@
 inherit gnome.org
 
 NAME="mm-common"
-VERSION=0.9.6
+VERSION=0.9.7
 RELEASE=1
-CATEGORY="Devel GNOME"
+CATEGORY="Devel"
 SUMMARY="GNOME C++ bindings build infrastructure"
 DESCRIPTION="The mm-common module provides the build infrastructure and
 utilities shared among the GNOME C++ binding libraries."
+
+ARCH=noarch
 
 src_compile() {
 	cd ${B}
