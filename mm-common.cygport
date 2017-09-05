@@ -1,7 +1,7 @@
 inherit gnome.org
 
 NAME="mm-common"
-VERSION=0.9.10
+VERSION=0.9.11
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GNOME C++ bindings build infrastructure"
